@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          1.2.8
+Version:          1.2.10
 Release:          1
 Summary:          Estimation and Control of (Local) False Discovery Rates
 Group:            Sciences/Mathematics
 License:          GPL (>= 3)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/fdrtool_1.2.10.tar.gz
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
 
 %description
@@ -49,11 +49,3 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/data
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
-
-
-%changelog
-* Mon Feb 20 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.2.8-1
-+ Revision: 777702
-- Import R-fdrtool
-- Import R-fdrtool
-
