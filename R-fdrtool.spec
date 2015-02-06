@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.2.11
-Release:          1
+Release:          2
 Summary:          Estimation and Control of (Local) False Discovery Rates
 Group:            Sciences/Mathematics
 License:          GPL (>= 3)
